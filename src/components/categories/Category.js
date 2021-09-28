@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import dalImage from "../../assets/images/Dal.png";
+import CustomCarousel from "./CustomCarousel";
 
 const Category = () => {
   return (
@@ -10,11 +11,11 @@ const Category = () => {
           <h1 className="section_heading">OUR CATEGORIES</h1>
         </Col>
         <Row className="category_items_row">
-          <Col lg="2">
-            <div className="category_item">
+          {/* <Col lg="2">
+            <div className="category_item baby_care_cat">
               <div className="category_name_rounded_green">
-                <span>Cooking</span>
-                <span>Essentials</span>
+                <span>Baby</span>
+                <span>Care</span>
               </div>
             </div>
           </Col>
@@ -40,7 +41,8 @@ const Category = () => {
                 <span>Beverages</span>
               </div>
             </div>
-          </Col>
+          </Col> */}
+          <CustomCarousel />
         </Row>
         <Col lg="3">
           <div className="position-relative dal_image">
