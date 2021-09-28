@@ -6,19 +6,28 @@ import biscuitsImage from "../../assets/images/Biscuits.png";
 const WhySoulbite = () => {
   return (
     <>
-      <Row className="why-soulbite-row">
-        <Col lg="6">
-          <h1 className="why-soulbite-title">WHY SOULBITE ?</h1>
-          <div className="why_soulbite_content"></div>
-        </Col>
-        <Col lg="6" className="position-relative">
-          <span className="position-absolute top-50 start-100 translate-middle p-3 bg-danger border border-light rounded-circle milk-round">
-            <img src={milkImage} alt="" className="why-soulbite-right-image" />
-          </span>
-        </Col>
-        <Col lg="3">
-          <img src={biscuitsImage} alt="" className="why-soulbite-left-image" />
-        </Col>
+      <Row className="why_soulbite_row">
+        <div className="position-relative">
+          <Col lg="6">
+            <h1 className="section_heading why_soulbite_section_heading">
+              WHY SOULBITE ?
+            </h1>
+            <div className="why_soulbite_content">
+              <div className="content"></div>
+              <div className="position-absolute">
+                <div className="position-relative biscuits_image">
+                  <img src={biscuitsImage} alt="" className="image biscuits" />
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col lg="6"></Col>
+          <div className="position-relative why_soulbite_rounded">
+            <div className="position-relative milk_image">
+              <img src={milkImage} alt="" className="image milk" />
+            </div>
+          </div>
+        </div>
       </Row>
     </>
   );

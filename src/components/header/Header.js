@@ -15,7 +15,7 @@ const Header = () => {
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="ustify-content-end nav" justify="true">
               <Nav.Link style={{ color: "rgb(255, 175, 0)" }} href="#home">
                 HOME
               </Nav.Link>
