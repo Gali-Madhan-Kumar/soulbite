@@ -1,13 +1,14 @@
 import Navbar from "react-bootstrap/Navbar";
 import { Container, Nav } from "react-bootstrap";
 import classes from "./Header.module.scss";
-
+import logoImage from "../../assets/images/logo.png";
 import React from "react";
 import Home from "../home/Home";
 import Soulbite from "../soulbite/Soulbite";
 import Features from "../features/Features";
 import Category from "../categories/Category";
 import WhySoulbite from "../whysoulbite/WhySoulbite";
+
 const Header = () => {
   return (
     <>
@@ -15,8 +16,13 @@ const Header = () => {
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ustify-content-end nav" justify="true">
-              <Nav.Link style={{ color: "rgb(255, 175, 0)" }} href="#home">
+            <Nav className="header_nav">
+              <Nav.Link
+                style={{
+                  color: "rgb(255, 175, 0)",
+                }}
+                href="#home"
+              >
                 HOME
               </Nav.Link>
               <Nav.Link
@@ -25,17 +31,29 @@ const Header = () => {
               >
                 WHAT IS SOULBITE
               </Nav.Link>
-              <Nav.Link style={{ color: "rgb(255, 175, 0)" }} href="#features">
+              <Nav.Link
+                style={{
+                  color: "rgb(255, 175, 0)",
+                }}
+                href="#features"
+              >
                 FEATURES
               </Nav.Link>
+              <div className="header_logo">
+                <img src={logoImage} alt="" className="logo_image" />
+              </div>
               <Nav.Link
-                style={{ color: "rgb(255, 175, 0)" }}
+                style={{
+                  color: "rgb(255, 175, 0)",
+                }}
                 href="#why_soulbite"
               >
                 WHY SOULBITE
               </Nav.Link>
               <Nav.Link
-                style={{ color: "rgb(255, 175, 0)" }}
+                style={{
+                  color: "rgb(255, 175, 0)",
+                }}
                 href="#categories"
               >
                 CATEGORIES

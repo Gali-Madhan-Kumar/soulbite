@@ -1,27 +1,30 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import deliveryImage from "../../assets/images/delivery.png";
 import spicesImage from "../../assets/images/Spices.png";
+import bgCityImage from "../../assets/images/BgCity.png";
 import "../Styles.css";
 
 const Features = () => {
   return (
     <>
-      <Row className="features_row">
-        <Col lg="6">
-          <div className="position-relative">
-            <div className="position-relative delivery_image">
-              <img src={deliveryImage} alt="" className="image delivery" />
-            </div>
-            <div className="position-relative spices_image">
-              <img src={spicesImage} alt="" className="image spices" />
-            </div>
+      <div className="features_container">
+        <div className="left_inner">
+          <div className="left_inner_image">
+            <img src={deliveryImage} alt="" className="delivery_image" />
           </div>
-        </Col>
-        <Col lg="6" className="features_content">
-          <h1 className="section_heading features_heading">Features</h1>
-        </Col>
-      </Row>
+        </div>
+        <div className="right_inner">
+          <div className="right_inner_image">
+            <img src={spicesImage} alt="" className="spices_image" />
+          </div>
+          <div className="right_inner_content">
+            <h1 className="section_heading features_heading">Features</h1>
+          </div>
+          <div className="features_bottom_image">
+            <img src={bgCityImage} alt="" className="bg_city_image" />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

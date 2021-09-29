@@ -1,5 +1,4 @@
 import React from "react";
-import { Carousel, Col } from "react-bootstrap";
 import babyCareImage from "../../assets/images/BabyCare.jpg";
 import beveragesImage from "../../assets/images/Beverages.jpeg";
 import bioDegradableImage from "../../assets/images/BioDegradbleProducts.jpg";
@@ -20,209 +19,298 @@ import brandedFoodsImage from "../../assets/images/BrandedFoods.png";
 const CustomCarousel = () => {
   return (
     <>
-      <Carousel indicators={false} interval={null}>
-        <Carousel.Item>
-          <Col lg="12" className="cat_item_col">
-            <img
-              className="d-block w-25 cat_images badge"
-              src={babyCareImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Baby</span>
-                <span>Care</span>
+      <section className="slider">
+        <ul id="autoWidth" className="cs-hidden">
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Baby</span>
+                  <span>Care</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={babyCareImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-
-            <img
-              className="d-block w-25 cat_images"
-              src={beveragesImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Beverages</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Beverages</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={beveragesImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={bioDegradableImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Bio</span>
-                <span>Degradable</span>
-                <span>Products</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Bio</span>
+                  <span>Degradable</span>
+                  <span>Products</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={bioDegradableImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-          </Col>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Col lg="12" className="cat_item_col">
-            <img
-              className="d-block w-25 position-relative cat_images"
-              src={personalCareImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Personal</span>
-                <span>Care</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Personal</span>
+                  <span>Care</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={personalCareImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 position-relative cat_images"
-              src={homeCareImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Home</span>
-                <span>Care</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Home</span>
+                  <span>Care</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={homeCareImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 position-relative cat_images"
-              src={poojaNeedsImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Pooja</span>
-                <span>Needs</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Pooja</span>
+                  <span>Needs</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={poojaNeedsImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-          </Col>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Col lg="12" className="cat_item_col">
-            <img
-              className="d-block w-25 cat_images"
-              src={pulsesImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Pulses</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Pulses</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={pulsesImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={readyToCoolImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Ready</span>
-                <span>To</span>
-                <span>Cool</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Ready</span>
+                  <span>To</span>
+                  <span>Cool</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={readyToCoolImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={riceProductsImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Rice</span>
-                <span>Products</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Rice</span>
+                  <span>Products</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={riceProductsImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-          </Col>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Col lg="12" className="cat_item_col">
-            <img
-              className="d-block w-25 cat_images"
-              src={snacksImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Snacks</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Nutri</span>
+                  <span>Cereals</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={nutriCerealsImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={dryFruitsImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Dry</span>
-                <span>Fruits</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Snacks</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={snacksImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={cookingEssentialsImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Cooking</span>
-                <span>Essentials</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Masal</span>
+                  <span>And</span>
+                  <span>Spices</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={masalaAndSpicesImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-          </Col>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Col lg="12" className="cat_item_col">
-            <img
-              className="d-block w-25 cat_images"
-              src={edibleOilsAndGhee}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Edible Oils</span>
-                <span>And</span>
-                <span>Ghee</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Edible Oils</span>
+                  <span>And Ghee</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={edibleOilsAndGhee} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={masalaAndSpicesImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Masala And</span>
-                <span>Spices</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Dry</span>
+                  <span>Fruits</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={dryFruitsImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-            <img
-              className="d-block w-25 cat_images"
-              src={nutriCerealsImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_green">
-              <div className="category_name_rounded_green">
-                <span>Nutri</span>
-                <span>Cereals</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_orange">
+                <div className="category_name_rounded_orange">
+                  <span>Cooking</span>
+                  <span>Essentials</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={cookingEssentialsImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-          </Col>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Col lg="12" style={{ display: "flex" }}>
-            <img
-              className="d-block w-25 cat_images"
-              src={brandedFoodsImage}
-              alt="First slide"
-            />
-            <div className="position-relative rounded_orange">
-              <div className="category_name_rounded_orange">
-                <span>Branded</span>
-                <span>Foods</span>
+          </li>
+          <li className="item-a">
+            <div className="box">
+              <div className="rounded_green">
+                <div className="category_name_rounded_green">
+                  <span>Branded</span>
+                  <span>Foods</span>
+                </div>
+              </div>
+              <div className="slide-img">
+                <img alt="" src={brandedFoodsImage} />
+                <div className="overlay">
+                  <a href="/#" className="buy-btn">
+                    Shop Now
+                  </a>
+                </div>
               </div>
             </div>
-          </Col>
-        </Carousel.Item>
-      </Carousel>
+          </li>
+        </ul>
+      </section>
     </>
   );
 };
