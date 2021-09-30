@@ -32,7 +32,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={babyCareImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/baby-care/catid/24898"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -49,7 +52,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={beveragesImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/beverages/catid/11770"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -68,7 +74,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={bioDegradableImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/bio-degradable-products/catid/25655"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -86,7 +95,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={personalCareImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/personal-care/catid/21042"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -104,7 +116,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={homeCareImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/home-care/catid/21043"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -122,7 +137,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={poojaNeedsImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/pooja-needs/catid/22882"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -139,7 +157,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={pulsesImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/pulses/catid/15823"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -158,7 +179,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={readyToCoolImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/ready-to-cook/catid/12745"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -176,7 +200,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={riceProductsImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/rice-rice-products/catid/15820"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -194,7 +221,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={nutriCerealsImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/nutri-cereals/catid/16959"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -211,7 +241,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={snacksImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/snacks/catid/16359"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -230,7 +263,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={masalaAndSpicesImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/masala-spices/catid/15821"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -248,7 +284,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={edibleOilsAndGhee} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/edible-oils-ghee/catid/15822"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -266,7 +305,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={dryFruitsImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/dry-fruits/catid/11734"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -284,7 +326,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={cookingEssentialsImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/cooking-essentials/catid/11711"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>
@@ -302,7 +347,10 @@ const CustomCarousel = () => {
               <div className="slide-img">
                 <img alt="" src={brandedFoodsImage} />
                 <div className="overlay">
-                  <a href="/#" className="buy-btn">
+                  <a
+                    href="https://www.soulbite.in/cat/branded-foods/catid/11710"
+                    className="buy-btn"
+                  >
                     Shop Now
                   </a>
                 </div>

@@ -2,6 +2,7 @@ import React from "react";
 import deliveryImage from "../../assets/images/delivery.png";
 import spicesImage from "../../assets/images/Spices.png";
 import bgCityImage from "../../assets/images/BgCity.png";
+import mobileImage from "../../assets/images/mobile.jpg";
 import "../Styles.css";
 
 const Features = () => {
@@ -11,6 +12,9 @@ const Features = () => {
         <div className="left_inner">
           <div className="left_inner_image">
             <img src={deliveryImage} alt="" className="delivery_image" />
+          </div>
+          <div className="left_inner_mobile_image">
+            <img src={mobileImage} alt="" className="mobile_image" />
           </div>
         </div>
         <div className="right_inner">
