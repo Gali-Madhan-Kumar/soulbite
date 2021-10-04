@@ -8,7 +8,7 @@
 }
 
 .footer_section_title {
-  font-weight: 900;
+  font-weight: bold;
   font-size: 1.5vw;
 }
 
@@ -34,6 +34,7 @@
   color: rgb(177, 164, 164);
   font-size: 1.2vw;
   margin: 2.5% 0px;
+  font-weight: 400;
   opacity: 1;
 }
 
@@ -57,12 +58,11 @@
 }
 
 .ordered_list {
-  font-family: "Playfair Display", serif;
   font-size: 1.25vw;
 }
 
 .list {
-  font-weight: 900;
+  font-weight: 600;
   color: white;
 }
 
@@ -78,7 +78,7 @@
 
 .inner_unordered_list {
   color: rgb(17, 16, 16);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .ordered_list li {
@@ -162,6 +162,7 @@
 
 h1 {
   font-size: 3.75vw;
+  font-weight: bold;
 }
 
 .heading_one {
@@ -175,12 +176,14 @@ h1 {
 
 h3 {
   font-size: 2.9vw;
+  font-weight: 600;
 }
 
 .section_heading {
   font-size: 3vw;
   color: rgb(185, 0, 0);
   text-align: center;
+  font-weight: 600;
 }
 
 .home_all_products_btn {
@@ -198,6 +201,7 @@ h3 {
   border-color: rgb(185, 0, 0);
   font-size: 2vw;
   cursor: pointer;
+  font-weight: 400;
 }
 
 .all_products_btn:hover {
@@ -219,6 +223,7 @@ h3 {
 
 .android_btn,
 .ios_btn {
+  font-weight: 400;
   opacity: 1;
   z-index: 1;
   font-size: 2vw;
@@ -294,7 +299,7 @@ h3 {
 .why_soulbite_content {
   text-transform: capitalize;
   color: rgb(7, 46, 83);
-  font-family: "Playfair Display", serif;
+  font-weight: 400;
   font-size: 1.5vw;
   padding: 2.5% 20%;
   text-align: start;
@@ -438,7 +443,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: 900;
+  font-weight: 400;
   color: white;
   z-index: 1;
 }
