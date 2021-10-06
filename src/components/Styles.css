@@ -77,8 +77,8 @@
 }
 
 .inner_unordered_list {
-  color: rgb(17, 16, 16);
-  font-weight: 500;
+  color: white;
+  font-weight: 400;
 }
 
 .ordered_list li {
@@ -90,9 +90,8 @@
   line-height: 200%;
   padding: 10%;
   padding-top: 2%;
-  text-transform: capitalize;
   color: rgb(7, 46, 83);
-  font-family: "Playfair Display", serif;
+  font-weight: 400;
 }
 
 .heading-primary-sub {
@@ -297,7 +296,6 @@ h3 {
 }
 
 .why_soulbite_content {
-  text-transform: capitalize;
   color: rgb(7, 46, 83);
   font-weight: 400;
   font-size: 1.5vw;

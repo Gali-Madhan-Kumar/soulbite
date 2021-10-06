@@ -12,7 +12,7 @@ const Home = () => {
             <h1>across all the products</h1>
           </div>
           <div className="heading_two">
-            <h3>Free orders above &#8377;1000 INR purchases</h3>
+            <h3>Free delivery on orders above &#8377;1000 INR purchases</h3>
           </div>
           <div className="home_all_products_btn">
             <a

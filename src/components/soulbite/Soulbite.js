@@ -22,7 +22,7 @@ const Soulbite = () => {
           <div className="text-box">
             <h1 className="heading-primary">
               <span className="heading-primary-sub soulbite_content">
-                Soulbite is the Largest Online Grocery Store in Bangalore for
+                Soulbite is the largest online grocery store in Bangalore for
                 your daily grocery and essentials needs make it easy to shop
                 online at your place. We have a wide range of products with
                 unbeatable prices and deliver directly to your doorstep. We

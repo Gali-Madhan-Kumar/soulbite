@@ -13,7 +13,7 @@ const WhySoulbite = () => {
           </div>
           <div className="why_soulbite_left_content">
             <h1 className="section_heading why_soulbite_section_heading">
-              WHY SOULBITE ?
+              Why Soulbite ?
             </h1>
             <div className="why_soulbite_content">
               Discover the new products of your daily needs from your
@@ -21,7 +21,7 @@ const WhySoulbite = () => {
               services to our customers.
             </div>
             <div className="why_soulbite_content why_soulbite_content_section_two">
-              Our prime focus area is Freshness And Hygiene to maintain customer
+              Our prime focus area is freshness And hygiene to maintain customer
               satisfaction and we constantly monitor shopping trends to react
               quickly And effectively based on customer suggestions and
               feedback.
